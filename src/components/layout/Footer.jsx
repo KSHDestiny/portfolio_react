@@ -2,7 +2,6 @@ import React from 'react'
 import pages from '../../utils/page';
 import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { Link, useLocation } from 'react-router-dom';
-import { Image } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const navLinks = Array.from(pages.values()).filter(page=>page.anchorable);
