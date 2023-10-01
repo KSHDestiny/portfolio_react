@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const navLinks = Array.from(pages.values()).filter(page=>page.anchorable);
 const contacts = [
-    { icon: faLocationDot, info: 'Yangon, Myanmar', href:"/" },
+    { icon: faLocationDot, info: 'Yangon, Myanmar', href:"/portfolio" },
     { icon: faPhone, info: '(+95) 9123456789', href:"tel:+959123456789" },
     { icon: faEnvelope, info: 'kaungsathein.5899@gmail.com', href:"mailto:kaungsathein.5899@gmail.com" },
 ];
@@ -45,7 +45,7 @@ const Footer = () => {
           <h6>Social Media Links</h6>
           <ul className='list-unstyled'>
             {socials.map((social,index) =>
-              <li key={index}><a href={social.href}><i className={social.class}></i> {social.info}</a></li>
+              <li key={index}><a href={social.href} target='blank'><i className={social.class}></i> {social.info}</a></li>
             )}
           </ul>
         </section>
