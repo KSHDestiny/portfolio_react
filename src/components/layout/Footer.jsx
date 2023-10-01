@@ -22,7 +22,7 @@ const Footer = () => {
 
   return (
     <footer className='bg-light'>
-      <article className='row align-items-center pt-3'>
+      <article className='row align-items-center pt-3 w-100'>
         <section className='col-6 col-md-3 offset-md-2'>
           <h6 className='ps-3'>Navigation</h6>
           <ul className='list-unstyled'>
@@ -41,7 +41,7 @@ const Footer = () => {
             )}
           </ul>
         </section>
-        <section className='col-6 col-md-3 ms-3'>
+        <section className='col-12 col-md-3 ms-3'>
           <h6>Social Media Links</h6>
           <ul className='list-unstyled'>
             {socials.map((social,index) =>

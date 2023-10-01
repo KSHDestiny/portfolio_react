@@ -1,3 +1,7 @@
 #content{
     background-image: linear-gradient(black, #36454F);
 }
+
+.nav-link:focus, .nav-link:active, .active{
+    color: #FFDB58 !important
+}
